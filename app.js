@@ -12,7 +12,7 @@ app.listen( 3000 , () => { console.log("Servidor levantado "," http://localhost:
 //heroku
 
 app.listen(process.env.PORT|| 3000, function() {
-    console.log("Servidor corriendo en el puerto 3000"," http://localhost:3000/home");
+    console.log("Servidor corriendo en el puerto 3000"," http://localhost:3000/");
 });
 
 
