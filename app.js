@@ -25,7 +25,7 @@ app.use(staticFiles);
 
 // genero una respuesta atravez de un get traigo mi "/views/home.html" con el  metodo path que esta guardado en una variable senFile
 
-app.get("/home", (req,res) => {
+app.get("/", (req,res) => {
     const fileToSent = path.join(__dirname, "/views/home.html" );
     res.sendFile(fileToSent);
 });
